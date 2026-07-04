@@ -1,0 +1,18 @@
+C:\Users\aps> nmap -sS -sV -O -oN nmap_results.txt 127.0.0.1
+Starting Nmap 7.99 ( https://nmap.org ) at 2026-07-04 14:50 -0500
+Nmap scan report for 127.0.0.1
+Host is up (0.00095s latency).
+Not shown: 997 closed tcp ports (reset)
+PORT     STATE SERVICE      VERSION
+135/tcp  open  msrpc        Microsoft Windows RPC
+445/tcp  open  microsoft-ds Microsoft Windows 7 - 10 microsoft-ds (workgroup: WORKGROUP)
+3306/tcp open  mysql        MySQL 8.0.43
+Device type: general purpose
+Running: Microsoft Windows 10
+OS CPE: cpe:/o:microsoft:windows_10
+OS details: Microsoft Windows 10 1511
+Network Distance: 0 hops
+Service Info: Host: DESKTOP-35Q4MD5; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 8.25 seconds
