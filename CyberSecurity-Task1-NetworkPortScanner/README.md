@@ -1,23 +1,37 @@
-# Task 1 - Network Port Scanner
-
-## Oasis Infobyte Cyber Security Internship
-
-**Name:** Abirami P
+# Task 1 – Basic Network Scanning with Nmap
 
 ## Objective
-To perform a basic network port scan on localhost (127.0.0.1) using Nmap.
+The objective of this task is to perform a basic network scan using Nmap, identify open ports and running services on a local machine, and understand the security risks associated with exposed services.
 
 ## Tools Used
 - Nmap
 - Windows Command Prompt
+- GitHub
 
-## Command Used
+## Installation
+1. Download and install Nmap from the official Nmap website.
+2. Open Command Prompt.
+3. Verify the installation by running:
+
 ```bash
-nmap 127.0.0.1
+nmap --version
 ```
 
-## Result
-The scan was successfully performed on localhost (127.0.0.1). Nmap displayed the available network ports and their status.
+## Commands Used
 
-## Author
-Abirami P
+```bash
+nmap 127.0.0.1
+nmap -sV 127.0.0.1
+nmap -O 127.0.0.1
+```
+
+## Files Included
+- README.md
+- nmap_scan_results.txt
+- screenshots/
+
+## Why Network Scanning Matters
+Network scanning helps identify active hosts, open ports, and running services. It is an essential step in security assessments.
+
+## Ethical Use
+Only scan systems that you own or have explicit permission to scan.
